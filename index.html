@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML, CSS, Javascript" />
+    <meta name="description" content="Free Web" />
+    <meta name="author" content="Xuan Thanh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập buổi 3</title>
+  </head>
+  <body>
+    <h2>Câu 1: Bài tập về Iframe</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6317797080865!2d106.6824824!3d10.762835599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1c06f4e1dd%3A0x43900f1d4539a3d!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBLaG9hIGjhu41jIFThu7Egbmhpw6puIC0gxJDhuqFpIGjhu41jIFF14buRYyBnaWEgVFAuSENN!5e0!3m2!1svi!2s!4v1686632330181!5m2!1svi!2s"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <h2>Câu 2: Bài tập về form</h2>
+    <form action="">
+      <label for="full_name">Họ tên:</label>
+      <br />
+      <input type="text" id="full_name" placeholder="Ví dụ: levana" required />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input
+        type="email"
+        id="email"
+        placeholder="Ví dụ: levana@gmail.com"
+        required
+      />
+      <br />
+      <label for="pass">Mật khẩu:</label>
+      <br />
+      <input type="password" id="pass" required />
+      <br />
+      <button type="submit">Đăng ký</button>
+    </form>
+    <br />
+    <form action="">
+      <input type="text" placeholder="Nhập nội dung tìm kiếm..." required />
+      <button type="submit">Tìm kiếm</button>
+    </form>
+
+    <h2>Bài tập để ôn lại kiến thức về form</h2>
+    <p>
+      Kiểu text:
+      <br />
+      <input type="text" placeholder="Nhập hộ tên" />
+    </p>
+    <p>
+      Kiểu email
+      <br />
+      <input type="email" placeholder="Nhập email" />
+    </p>
+    <p>
+      Kiểu password
+      <br />
+      <input type="password" />
+    </p>
+    <p>
+      Kiểu number
+      <br />
+      <input type="number" />
+    </p>
+    <p>
+      Kiểu time:
+      <br />
+      <input type="time" />
+    </p>
+    <p>
+      Kiểu file:
+      <br />
+      <input type="file" placeholder="Chọn tệp" />
+    </p>
+    <p>
+      Kiểu radio:
+      <br />
+      <input type="radio" id="nam" value="nam" name="gioi tinh" />
+      <label for="nam">Nam</label>
+      <br />
+      <input type="radio" id="nu" value="nu" name="gioi tinh" />
+      <label for="nu">Nữ</label>
+      <br />
+      <input type="radio" id="khac" value="khac" name="gioi tinh" />
+      <label for="khac">Khác</label>
+    </p>
+    <p>
+      Kiểu range:
+      <br />
+      <label for="vol">Âm lượng (min=0 và max=100):</label>
+      <br />
+      <input type="range" id="vol" name="vol" min="0" max="100" />
+    </p>
+
+    <p>
+      Kiểu color:
+      <br />
+      <input type="color" />
+    </p>
+    <form action="">
+      <label for="category">Chọn danh mục:</label>
+      <br />
+      <select name="category" id="category">
+        <option value="quan">Quần</option>
+        <option value="ao">Áo</option>
+        <option value="mu">Mũ</option>
+        <option value="khan">Khăn</option>
+      </select>
+    </form>
+    <textarea cols="30" rows="10"></textarea>
+  </body>
+</html>
